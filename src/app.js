@@ -1,6 +1,6 @@
 const express = require('express');
-const distanceRoutes = require('./routes/distance.routes');
-const { errorHandler } = require('./utils/errorHandler');
+const distanceRoutes = require('./routes/distance.routes.js');
+const { errorHandler } = require('./utils/errorHandler.js');
 
 // Import Swagger related modules
 const swaggerUi = require('swagger-ui-express');
