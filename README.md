@@ -1,6 +1,6 @@
 # Distance Calculator API
 
-    A RESTful API built with Node.js and Express.js to calculate the geographical distance between two points using the Haversine formula. It supports distance calculation in kilometers and miles, includes robust input validation, comprehensive error handling, and rate limiting to prevent abuse. It also integrates Swagger/OpenAPI for live API documentation.
+A RESTful API built with Node.js and Express.js to calculate the geographical distance between two points using the Haversine formula. It supports distance calculation in kilometers and miles, includes robust input validation, comprehensive error handling, and rate limiting to prevent abuse. It also integrates Swagger/OpenAPI for live API documentation.
 
 ---
 
@@ -39,7 +39,7 @@
 
 ---
 
-## \u{2699️} Technical Requirements
+## ⚙️ Technical Requirements
 
 - Node.js (v14.x or above)  
 - Express.js  
@@ -52,7 +52,7 @@
 
 ---
 
-## \u{1f6e0️} Getting Started
+## 🛠️ Getting Started
 
 Follow these steps to get the project up and running on your local machine.
 
