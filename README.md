@@ -68,7 +68,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 
 ```bash
 git clone https://github.com/Sayantan-dev1003/Distance-Calculator-API.git
-cd distance-calculator-api
+cd Distance-Calculator-API
 ```
 
 2. Install dependencies:
