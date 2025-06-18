@@ -177,6 +177,15 @@ GET /api/v1/distance?lat1=34.0522&lon1=-118.2437&lat2=40.7128&lon2=-74.0060&unit
 }
 ```
 
+#### ❌ Error Response (500 - Internal Server Error.):
+
+```json
+{
+  "success": false,
+  "error": "Internal Server Error."
+}
+```
+
 ---
 
 ## 📚 API Documentation (Swagger UI)
