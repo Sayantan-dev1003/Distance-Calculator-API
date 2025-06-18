@@ -1,4 +1,4 @@
-const { calculateDistance } = require('../../src/services/haversine.service');
+const { calculateDistance } = require('../../src/services/haversine.service.js');
 
 describe('Haversine Service Unit Tests', () => {
     // Test case 1: Distance between two identical points should be zero.

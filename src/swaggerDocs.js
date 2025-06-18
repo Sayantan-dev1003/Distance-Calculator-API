@@ -1,5 +1,5 @@
 const swaggerJsdoc = require('swagger-jsdoc');
-const config = require('./config/config'); // Import your config to get the port for the server URL
+const config = require('./config/config.js'); // Import your config to get the port for the server URL
 
 // Swagger definition options
 const options = {

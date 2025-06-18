@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../../src/app'); // Import your Express app
-const config = require('../../src/config/config'); // Import config for rate limit values
+const config = require('../../src/config/config.js'); // Import config for rate limit values
 
 describe('Distance API Integration Tests', () => {
     // Test case 1: Valid request with all parameters in kilometers.
