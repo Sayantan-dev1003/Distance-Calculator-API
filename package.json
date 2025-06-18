@@ -1,0 +1,45 @@
+{
+  "name": "distance-calculator-api",
+  "version": "1.0.0",
+  "description": "A RESTful API to calculate the distance between two geographical areas using the Haversine formula.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development node src/server.js",
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:unit": "jest tests/unit --detectOpenHandles --forceExit",
+    "test:integration": "jest tests/integration --detectOpenHandles --forceExit"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "api",
+    "haversine",
+    "distance",
+    "restful",
+    "rate-limiting",
+    "jest"
+  ],
+  "author": "Sayantan Halder",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
